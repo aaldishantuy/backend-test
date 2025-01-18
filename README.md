@@ -7,16 +7,19 @@ Layanan Autentikasi & Manajemen Pengguna
 1.	Registrasi: Memungkinkan pengguna baru (admin dan pengguna reguler) untuk mendaftar.
 2.	Login: Memungkinkan pengguna untuk masuk dan menerima token JWT.
 3.	Profil Pengguna: Memungkinkan pengguna yang telah masuk untuk mengambil informasi profil mereka.
+4.	
 Layanan Manajemen Logistik
 1.	Membuat Pengiriman: Memungkinkan admin untuk membuat pengiriman baru.
 2.	Memperbarui Status Pengiriman: Memungkinkan admin memperbarui status pengiriman (contoh: dari "Dikirim" menjadi "Terkirim").
 3.	Menghapus data pengiriman: Menghapus data pengiriman dari data yang di pilih
 4.	Mengambil Data Pengiriman: Mengambil semua data pengiriman yang terkait dengan pengguna yang sedang masuk (baik sebagai pengirim atau penerima).
+5.	
 Prasyarat
 1.	Node.js (versi 15 atau lebih baru)
 2.	MongoDB (Pastikan Anda memiliki instance Mongodb/MongoDBCompass yang berjalan)
 3.	NPM (Sudah termasuk dalam Node.js)
 4.	Axios (Untuk integrasi API antara layanan)
+5.	
 Instalation
 1. Clone both repositories: - **Authentication & User Management Service** - **Logistics Management Service** 
 bash
@@ -30,6 +33,7 @@ bash
 
     - cd ../logistics-service
     - npm install
+    - 
 ## Pengujian dengan Postman
 1.	Gunakan Postman untuk mengirim permintaan ke layanan ini.
 2.	Untuk permintaan yang memerlukan autentikasi, sertakan token JWT di header Authorization dengan format:
